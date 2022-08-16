@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [APIDemo]">
+  <test thread-count="5" name="API(failed)">
+    <parameter name="baseUrl" value="http://zippopotam.us/"/>
+    <classes>
+      <class name="tests.Day3.Day3Tests">
+        <methods>
+          <include name="verifyExcelDataProvider_BookTest" invocation-numbers="0 1 2"/>
+        </methods>
+      </class> <!-- tests.Day3.Day3Tests -->
+    </classes>
+  </test> <!-- API(failed) -->
+</suite> <!-- Failed suite [APIDemo] -->

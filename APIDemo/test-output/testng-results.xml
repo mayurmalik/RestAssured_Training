@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-08-16T02:36:40 PDT" name="Default suite" finished-at="2022-08-16T02:36:42 PDT" duration-ms="1701">
+    <groups>
+    </groups>
+    <test started-at="2022-08-16T02:36:40 PDT" name="Default test" finished-at="2022-08-16T02:36:42 PDT" duration-ms="1701">
+      <class name="tests.Day6.SchemaValidation">
+        <test-method is-config="true" signature="createRequestSpecification()[pri:0, instance:tests.Day6.SchemaValidation@28f2a10f]" started-at="2022-08-16T02:36:40 PDT" name="createRequestSpecification" finished-at="2022-08-16T02:36:41 PDT" duration-ms="676" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createRequestSpecification -->
+        <test-method signature="serilizationWithLombok()[pri:0, instance:tests.Day6.SchemaValidation@28f2a10f]" started-at="2022-08-16T02:36:41 PDT" name="serilizationWithLombok" finished-at="2022-08-16T02:36:42 PDT" duration-ms="1000" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- serilizationWithLombok -->
+      </class> <!-- tests.Day6.SchemaValidation -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

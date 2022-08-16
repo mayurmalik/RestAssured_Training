@@ -1,0 +1,16 @@
+{
+    "firstname": "Anant",
+    "address": [
+        {
+            "streetName": "kv road",
+            "houseNo": "120"
+        },
+        {
+            "streetName": "hinjewadi road",
+            "houseNo": "121"
+        }
+    ],
+    "id": 188,
+    "age": 30,
+    "lastname": "Shinde"
+}
