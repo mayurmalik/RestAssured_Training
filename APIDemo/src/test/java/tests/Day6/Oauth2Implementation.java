@@ -9,15 +9,17 @@ import com.fasterxml.jackson.core.JsonProcessingException;
 
 public class Oauth2Implementation {
 	
+	// i have generated my personal access token from my git hub account in developers settings
+	String token = "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" ;
 	
+	String url = "https://github.com/mayurmalik/repos";
 	
 	@Test
-	public void serilizationWithLombok() throws JsonProcessingException {
+	public void GithubApiTest() {
 		
-		// validating the schema for friends endpoint 
-
-		//given().spec(requestSpec).when().get("/{path}").then().log().body().assertThat().body(matchesJsonSchemaInClasspath("friends-schema.json")).statusCode(200);
-
+	
+	given().auth().oauth2(token).when().get(url).then().log().body();
+	
 		
 		
 		
